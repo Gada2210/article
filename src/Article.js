@@ -21,24 +21,33 @@ const Article = () => {
             <div className="abstract-section">
             <h2>ABSTRACT</h2>
             <h3>Introduction</h3>
-            <p>AF is the most common arrhythmia known in medicine. Natriuretic peptides are important prognostic markers in patients with AF. The association with B type natriuretic peptide, disease progression, and outcomes in patients with atrial fibrillation has not been thoroughly investigated.</p>
+            <p>AF is the most common arrhythmia known in medicine. Natriuretic peptides are an important prognostic markers in patients with AF .The association with B type natriuretic peptide, disease progression and outcomes in patients with atrial fibrillation has not been thoroughly investigated.</p>
             <h3>Objective</h3>
-            <p>AF has an increased incidence of mortality and morbidity in the cardiovascular field. This makes the ultimate goal of treatment to increase the quality of life in patients and decrease adverse outcomes e.g., Stroke, heart failure, recurrence. This systematic review is based on (NPS) natriuretic peptides, to rule out adverse outcomes in patients with AF.</p>
+            <p>AF has increased incidence of mortality and morbidity in cardio vascular field this makes the ultimate goal of treatment, to increase the quality of life in patients and decrease the adverse outcomes eg. Stroke, heart failure, reaccurance.
+            This systemic review is based on (NPS) natriuretic peptides, to rule out adverse outcomes in patients with AF.</p>
             <h3>Method</h3>
-            <p>Analysis of the association between natriuretic peptide and adverse outcomes, taken from Pubmed, Embase, Google Scholar, Medline until 31st August 2023.</p>
+            <p>We conducted a systematic literature search on PubMed using two separate search queries:</p>
+            <ul>
+                <li>beta natriuretic peptide OR (BNP) AND (acute heart failure OR acute decompensated heart failure OR chronic heart failure OR congestive heart failure) AND clinical trial</li>
+                <li>beta natriuretic peptide OR (BNP) AND (systemic embolism OR arterial embolism OR recurrence OR "atrial fibrillation" OR "AF" OR "catheter ablation") AND clinical trial</li>
+                <li>After removing duplicates and applying our inclusion and exclusion criteria, we identified seven relevant clinical trials from a total of 554 retrieved articles. These trials examined various cardiovascular conditions and assessed the predictive value of BNP for adverse outcomes. Exclusion criteria included absence of BNP cut-off values, non-clinical trial studies, studies published before 2011, and non-English language publications.</li>
+            </ul>
             <h3>Result</h3>
             <ul>
-                <li>Among 1586 patients with AF (25-74 years; 57% men), Median BNP=100pg/ml becomes the cutoff value with diagnostic accuracy 83.4% and the negative predictor being &lt;50pg/ml was 96% for acute HF.</li>
-                <li>Among 1410 PATIENTS with afib (57.2+_11.6 years; 68% men), Median BNP=237.45pg/ml becomes the cutoff value with a follow-up in 20.7+_8 months for recurrence of afib after ablation.</li>
-                <li>Among 250 PATIENTS with afib, Median BNP=80pg/ml becomes the cutoff value with diagnostic accuracy 95% and the negative predictor being &lt;80pg/ml was 98% for chronic HF.</li>
-                <li>In trials involving 261 patients, 153 having paroxysmal AF treated with Warfarin were included for the analysis. Those with cutoff BNP levels _&gt;200 pg/ml in 73 patients and &lt;200 pg/ml had a hazard ratio of 5.32 (95% CI: 1.67 - 1.53, p=0.018) for stroke/embolism.</li>
+                <li>AFib and risk of Heart failure: Three studies examined B-type natriuretic peptide (BNP) and N-terminal pro-B-type natriuretic peptide (NT-proBNP) in atrial fibrillation (AF) and heart failure (HF).</li>
+                <li>Key findings: NT-proBNP is higher in AF with HF (744 pg/mL vs. 211 pg/mL without). Specific cut-offs for HF diagnosis: 200 pg/mL with AF, 100 pg/mL without AF. NT-proBNP also predicts cardiovascular events regardless of AF. In heart failure with reduced ejection fraction (HFrEF), NT-proBNP>400 pg/mL predicts adverse outcomes in both AF and sinus rhythm. Complex AF-HF relationship underscores the need for biomarker validation.</li>
+                <li>AFib and risk of Systemic embolism: In the first study of 261 patients with a median age of 74, higher baseline B-type natriuretic peptide (BNP) levels (above 200 pg/ml) were associated with 6 thromboembolic events, compared to 3 events in those with lower BNP levels. The study identified a significant correlation between elevated BNP levels and thromboembolic events, with a cutoff value of 218 pg/ml.</li>
+                <li>In the second study with 1172 patients receiving anticoagulant therapy, elevated N- terminal pro-B-type natriuretic peptide (NT-proBNP) levels were significantly linked to an increased risk of stroke (HR 2.71) and higher mortality.</li>
+                <li>Risk of AFib recurrence: BNP, with a cutoff of 237.45 pg/mL, is a strong predictor of AF recurrence (AUC 0.90). NT-pro-BNP alone doesn't reliably predict AF ablation success, but post-ablation elevations suggest long-term monitoring. Baseline NT-pro-BNP doesn't predict ablation outcome effectively. BNP is a more reliable predictor of AF recurrence compared to NT-pro-BNP in these contexts.</li>
             </ul>
             <h3>Conclusion</h3>
-            <p>NP levels can greatly help in the clinical management and diagnosis of adverse outcomes in patients with AF. NPs have been established as a tool of diagnosis and prognostication, a guide to the management and monitoring of therapy, and a surrogate of the underlying disease. Cutoff levels have been confirmed. BNP values improve the risk prediction and adverse outcomes in patients with Afib with relatively acceptable accuracy. Further studies are required to assess whether biomarker-based risk stratification improves patient outcomes.</p>
+            <p>NP levels can greatly help in the clinical management and diagnosis of adverse outcomes In patients with AF. NPs has been established as a tool of diagnosis and prognostication, a guide to the management and monitoring of therapy, and a surrogate of the underlying disease with cut-off levels have been confirmed.
+            BNP values improve the risk pridiction and adverse outcomes in patients with Afib with relatively acceptable accuracy.
+            Further studies are required to assess whether biomarker based risk stratification improves patient outcomes.</p>
             <h3>KEYWORDS</h3>
-            <p>Natriuretic peptides, Atrial fibrillation, Heart failure, Hazard ratio, Diagnostic accuracy, Negative predictors.</p>
+            <p>Natriuretic peptides, Atrial fibrillation, Heart failiure, Hazard ratio, Diagnostic accuracy, Negative predictors.</p>
             <h3>ABBREVIATION</h3>
-            <p>NP- Natriuretic peptides, AF- Atrial fibrillation, HF- Heart failure</p>
+            <p>NP- Natriuretic peptides, AF- Atrial fibrillation, HF- Heart failiure, CI- confidence interval</p>
             </div>
         </div>
     );
